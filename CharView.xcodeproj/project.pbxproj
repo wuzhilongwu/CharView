@@ -13,6 +13,13 @@
 		2E24BF221FC1BDCD004A9F0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E24BF211FC1BDCD004A9F0E /* Assets.xcassets */; };
 		2E24BF251FC1BDCD004A9F0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E24BF231FC1BDCD004A9F0E /* LaunchScreen.storyboard */; };
 		2E24BF281FC1BDCD004A9F0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E24BF271FC1BDCD004A9F0E /* main.m */; };
+		2E24BF3D1FC1C012004A9F0E /* ZRHomeAllData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E24BF3B1FC1C012004A9F0E /* ZRHomeAllData.m */; };
+		2EF03A0D1FC1D1B500BFC526 /* ZRBarCharView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E24BF301FC1BDEF004A9F0E /* ZRBarCharView.m */; };
+		2EF03A0E1FC1D1B500BFC526 /* ZRBarCharViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E24BF321FC1BDEF004A9F0E /* ZRBarCharViewCell.m */; };
+		2EF03A0F1FC1D1B500BFC526 /* ZRBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E24BF341FC1BDEF004A9F0E /* ZRBarView.m */; };
+		2EF03A101FC1D1B500BFC526 /* ZRDottedLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E24BF361FC1BDEF004A9F0E /* ZRDottedLineView.m */; };
+		2EF03A121FC1D1B500BFC526 /* ZRLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E24BF3A1FC1BDEF004A9F0E /* ZRLineView.m */; };
+		2EF03A151FC1D1FA00BFC526 /* UIView+ZRFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF03A131FC1D1FA00BFC526 /* UIView+ZRFrame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,20 @@
 		2E24BF241FC1BDCD004A9F0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E24BF261FC1BDCD004A9F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E24BF271FC1BDCD004A9F0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E24BF2F1FC1BDEF004A9F0E /* ZRBarCharView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZRBarCharView.h; sourceTree = "<group>"; };
+		2E24BF301FC1BDEF004A9F0E /* ZRBarCharView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZRBarCharView.m; sourceTree = "<group>"; };
+		2E24BF311FC1BDEF004A9F0E /* ZRBarCharViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZRBarCharViewCell.h; sourceTree = "<group>"; };
+		2E24BF321FC1BDEF004A9F0E /* ZRBarCharViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZRBarCharViewCell.m; sourceTree = "<group>"; };
+		2E24BF331FC1BDEF004A9F0E /* ZRBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZRBarView.h; sourceTree = "<group>"; };
+		2E24BF341FC1BDEF004A9F0E /* ZRBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZRBarView.m; sourceTree = "<group>"; };
+		2E24BF351FC1BDEF004A9F0E /* ZRDottedLineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZRDottedLineView.h; sourceTree = "<group>"; };
+		2E24BF361FC1BDEF004A9F0E /* ZRDottedLineView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZRDottedLineView.m; sourceTree = "<group>"; };
+		2E24BF391FC1BDEF004A9F0E /* ZRLineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZRLineView.h; sourceTree = "<group>"; };
+		2E24BF3A1FC1BDEF004A9F0E /* ZRLineView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZRLineView.m; sourceTree = "<group>"; };
+		2E24BF3B1FC1C012004A9F0E /* ZRHomeAllData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZRHomeAllData.m; sourceTree = "<group>"; };
+		2E24BF3C1FC1C012004A9F0E /* ZRHomeAllData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZRHomeAllData.h; sourceTree = "<group>"; };
+		2EF03A131FC1D1FA00BFC526 /* UIView+ZRFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZRFrame.m"; sourceTree = "<group>"; };
+		2EF03A141FC1D1FA00BFC526 /* UIView+ZRFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ZRFrame.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +81,13 @@
 			children = (
 				2E24BF181FC1BDCD004A9F0E /* AppDelegate.h */,
 				2E24BF191FC1BDCD004A9F0E /* AppDelegate.m */,
+				2E24BF3C1FC1C012004A9F0E /* ZRHomeAllData.h */,
+				2E24BF3B1FC1C012004A9F0E /* ZRHomeAllData.m */,
 				2E24BF1B1FC1BDCD004A9F0E /* ViewController.h */,
 				2E24BF1C1FC1BDCD004A9F0E /* ViewController.m */,
+				2EF03A141FC1D1FA00BFC526 /* UIView+ZRFrame.h */,
+				2EF03A131FC1D1FA00BFC526 /* UIView+ZRFrame.m */,
+				2E24BF2E1FC1BDEF004A9F0E /* ZRBarView */,
 				2E24BF1E1FC1BDCD004A9F0E /* Main.storyboard */,
 				2E24BF211FC1BDCD004A9F0E /* Assets.xcassets */,
 				2E24BF231FC1BDCD004A9F0E /* LaunchScreen.storyboard */,
@@ -69,6 +95,23 @@
 				2E24BF271FC1BDCD004A9F0E /* main.m */,
 			);
 			path = CharView;
+			sourceTree = "<group>";
+		};
+		2E24BF2E1FC1BDEF004A9F0E /* ZRBarView */ = {
+			isa = PBXGroup;
+			children = (
+				2E24BF2F1FC1BDEF004A9F0E /* ZRBarCharView.h */,
+				2E24BF301FC1BDEF004A9F0E /* ZRBarCharView.m */,
+				2E24BF311FC1BDEF004A9F0E /* ZRBarCharViewCell.h */,
+				2E24BF321FC1BDEF004A9F0E /* ZRBarCharViewCell.m */,
+				2E24BF331FC1BDEF004A9F0E /* ZRBarView.h */,
+				2E24BF341FC1BDEF004A9F0E /* ZRBarView.m */,
+				2E24BF351FC1BDEF004A9F0E /* ZRDottedLineView.h */,
+				2E24BF361FC1BDEF004A9F0E /* ZRDottedLineView.m */,
+				2E24BF391FC1BDEF004A9F0E /* ZRLineView.h */,
+				2E24BF3A1FC1BDEF004A9F0E /* ZRLineView.m */,
+			);
+			path = ZRBarView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +185,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EF03A0D1FC1D1B500BFC526 /* ZRBarCharView.m in Sources */,
+				2EF03A0E1FC1D1B500BFC526 /* ZRBarCharViewCell.m in Sources */,
+				2EF03A0F1FC1D1B500BFC526 /* ZRBarView.m in Sources */,
+				2EF03A101FC1D1B500BFC526 /* ZRDottedLineView.m in Sources */,
+				2EF03A121FC1D1B500BFC526 /* ZRLineView.m in Sources */,
 				2E24BF1D1FC1BDCD004A9F0E /* ViewController.m in Sources */,
+				2EF03A151FC1D1FA00BFC526 /* UIView+ZRFrame.m in Sources */,
 				2E24BF281FC1BDCD004A9F0E /* main.m in Sources */,
+				2E24BF3D1FC1C012004A9F0E /* ZRHomeAllData.m in Sources */,
 				2E24BF1A1FC1BDCD004A9F0E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
